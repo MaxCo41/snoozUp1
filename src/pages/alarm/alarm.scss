@@ -1,0 +1,16 @@
+page-home {
+#parentRond{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    }
+.rond{
+    margin:5px;
+    width: 70px;
+    height: 70px;
+    background-color:#52E4C5;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+}
