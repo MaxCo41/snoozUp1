@@ -8,8 +8,13 @@
 
 <ion-content>
 <ion-item>
-  <ion-label>Start Time</ion-label>
-  <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+  <ion-label>Alarm Time</ion-label>
+  <ion-datetime displayFormat="DDD/MMM/YYY hh:mm A" pickerFormat="DDD MMM YYY hh mm A" ></ion-datetime>
 </ion-item>
+<ion-item>
+  <ion-label>Time of Alarm</ion-label>
+  <ion-datetime displayFormat="mm:ss A" pickerFormat=" mm ss A"></ion-datetime>
+</ion-item>
+
 
 </ion-content>
