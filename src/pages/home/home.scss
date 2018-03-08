@@ -1,3 +1,35 @@
 page-home {
-
+    .home-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-buttons ion-icon{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    ion-header{
+        margin-bottom: 0;
+    }
+    .toolbar-background {
+        background-color:#fff;
+    }
+    .hour{
+        color: #57e2c4;
+        font-size: 65px;
+    }
+    .hour-button button{
+        color: #5a6977;
+        font-size: 18px;
+    }
+    .line{
+        border-top: solid 1px #ddd;
+        margin: 0 25px;
+    }
+    .img img{
+        width: 250px;
+        height: 250px;
+        border: solid 4px #57e2c4;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
 }
