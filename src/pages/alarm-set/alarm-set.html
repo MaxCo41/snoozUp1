@@ -9,4 +9,20 @@
 
 <ion-content padding>
 
+<ion-list>
+  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+    {{ item }}
+  </button>
+</ion-list>
+
+
+  <ion-item-group>
+    <ion-item>Heure</ion-item>
+    <ion-item>Sonnerie</ion-item>
+    <ion-item>Répéntitio</ion-item>
+    <ion-item>Don par snooze</ion-item>
+    <ion-item>Vibreur</ion-item>
+    <ion-item>Durée de la sonnerie</ion-item>
+  </ion-item-group>
+
 </ion-content>
